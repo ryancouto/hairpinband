@@ -45,7 +45,6 @@ h3 {
 
 .flex-parent {
     display: flex;
-    height: 100vh;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -67,11 +66,11 @@ h3 {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	height: 100vh;
+	height: 1200px;
 }
 
 .leftborder {
-	height: 100vh;
+	height: 1200px;
 	width: 175px;
 	background: url("./assets/dancing_girl.gif");
 	/*position: absolute;*/
@@ -79,7 +78,7 @@ h3 {
 }
 
 .rightborder {
-	height: 100vh;
+	height: 1200px;
 	width: 175px;
 	background: url("./assets/palmtrees.gif");
 	right: 0;
