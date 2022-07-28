@@ -1,9 +1,10 @@
 * { 
 	/*cursor: url('./assets/genie.gif'), auto; */
+	font-family: Comic Sans MS;
+	src: url("./assets/comic-sans-ms/comici.ttf");
 }
 
 body {
-	font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
 	background: url("./assets/bg.jpg") no-repeat center center fixed;
 	background-size:  cover;
 	height:  100%;
@@ -24,15 +25,18 @@ h2 {
 	height: 100px;
 }
 
-.flex-container {
+.flex-parent {
     display: flex;
+    height: 100vh;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .leftborder {
 	height: 100vh;
 	width: 200px;
 	background: url("./assets/dancingbaby.gif");
-	position: absolute;
+	/*position: absolute;*/
 	z-index: 0;
 }
 
@@ -40,21 +44,11 @@ h2 {
 	height: 100vh;
 	width: 175px;
 	background: url("./assets/palmtrees.gif");
-	position: absolute;
+	/*position: absolute;*/
 	right: 0;
 	z-index: 0;
 }
 
-/*.goyowvid {
+video {
 	height: 300px;
-	width: 300px;
-	position: relative;
 }
-
-.goyowvid video {
-	height:  100%;
-	width: 100%;
-	position: absolute;
-	object-fit: cover;
-	z-index: 0;
-}*/
