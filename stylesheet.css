@@ -85,6 +85,10 @@ h3 {
 	z-index: 0;
 }
 
+.linkborder {
+	background: url("./assets/border.gif");
+}
+
 video {
 	height: 300px;
 }
