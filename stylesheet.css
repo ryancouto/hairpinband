@@ -1,0 +1,20 @@
+body {
+	font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+	background: url("./assets/bg.jpg") no-repeat center center fixed;
+	background-size:  cover;
+	height:  100%;
+	overflow: hidden;
+}
+
+h1 {
+	color: #05fcec;
+}
+
+h2 {
+	color: white;
+}
+
+.subheader {
+	background: url("./assets/flamingline.gif");
+	height: 100px;
+}
