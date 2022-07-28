@@ -62,3 +62,19 @@ h2 {
 video {
 	height: 300px;
 }
+
+.scroll {
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+.flex-subparent-2 {
+	height: 300px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100vh;
+}
