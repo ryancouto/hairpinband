@@ -27,11 +27,15 @@ footer {
 
 h1 {
 	color: #05fcec;
-	font-size: 48px;
+	font-size: 60px;
 }
 
 h2 {
 	color: white;
+}
+
+h3 {
+	font-size: 30px;
 }
 
 .subheader {
