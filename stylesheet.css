@@ -38,8 +38,8 @@ h2 {
 
 .rightborder {
 	height: 100vh;
-	width: 200px;
-	background: url("./assets/dancingbaby.gif");
+	width: 175px;
+	background: url("./assets/palmtrees.gif");
 	position: absolute;
 	right: 0;
 	z-index: 0;
