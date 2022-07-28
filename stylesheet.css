@@ -1,3 +1,7 @@
+* { 
+	/*cursor: url('./assets/genie.gif'), auto; */
+}
+
 body {
 	font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
 	background: url("./assets/bg.jpg") no-repeat center center fixed;
@@ -8,6 +12,7 @@ body {
 
 h1 {
 	color: #05fcec;
+	font-size: 48px;
 }
 
 h2 {
@@ -18,3 +23,38 @@ h2 {
 	background: url("./assets/flamingline.gif");
 	height: 100px;
 }
+
+.flex-container {
+    display: flex;
+}
+
+.leftborder {
+	height: 100vh;
+	width: 200px;
+	background: url("./assets/dancingbaby.gif");
+	position: absolute;
+	z-index: 0;
+}
+
+.rightborder {
+	height: 100vh;
+	width: 200px;
+	background: url("./assets/dancingbaby.gif");
+	position: absolute;
+	right: 0;
+	z-index: 0;
+}
+
+/*.goyowvid {
+	height: 300px;
+	width: 300px;
+	position: relative;
+}
+
+.goyowvid video {
+	height:  100%;
+	width: 100%;
+	position: absolute;
+	object-fit: cover;
+	z-index: 0;
+}*/
