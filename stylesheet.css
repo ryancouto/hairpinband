@@ -1,6 +1,6 @@
 * { 
-	/*cursor: url('./assets/genie.gif'), auto; */
-	font-family: Comic Sans MS;
+	cursor: url('./assets/cursor_ariel.gif'), auto; 
+	font-family: 'Comic Sans MS', 'Marker Felt', sans-serif;
 	src: url("./assets/comic-sans-ms/comici.ttf");
 }
 
