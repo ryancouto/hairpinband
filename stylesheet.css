@@ -8,7 +8,6 @@ body {
 	background: url("./assets/bg.jpg") no-repeat center center fixed;
 	background-size:  cover;
 	height:  100%;
-	overflow: hidden;
 }
 
 h1 {
@@ -32,6 +31,18 @@ h2 {
     justify-content: space-between;
 }
 
+.flex-subparent {
+	display:  flex;
+	height: 200px;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.flex-child {
+	height: 200px;
+	width: 200px;
+}
+
 .leftborder {
 	height: 100vh;
 	width: 200px;
@@ -44,7 +55,6 @@ h2 {
 	height: 100vh;
 	width: 175px;
 	background: url("./assets/palmtrees.gif");
-	/*position: absolute;*/
 	right: 0;
 	z-index: 0;
 }
