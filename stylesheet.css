@@ -31,10 +31,6 @@ h1 {
 	font-style: oblique;
 }
 
-h2 {
-	color: white;
-}
-
 h3 {
 	font-size: 30px;
 }
@@ -105,4 +101,19 @@ video {
 
 .flex-subparent-2 {
 	height: 300px;
+}
+
+.yellow {
+	color: hotpink;
+	font-weight: bold;
+	text-align: center;
+	/*font-family: fantasy;*/
+}
+
+.white {
+	color: white;
+}
+
+a {
+	cursor: pointer;
 }
