@@ -28,6 +28,7 @@ footer {
 h1 {
 	color: #05fcec;
 	font-size: 60px;
+	font-style: oblique;
 }
 
 h2 {
@@ -87,6 +88,10 @@ h3 {
 
 .linkborder {
 	background: url("./assets/border.gif");
+}
+
+.linkfont {
+	font-family: Times, "Times New Roman", serif;
 }
 
 video {
