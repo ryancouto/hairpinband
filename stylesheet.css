@@ -83,6 +83,15 @@ h3 {
 }
 
 .linkborder {
+	background: url("./assets/border3.gif");
+}
+
+.linkborder2 {
+	background: url("./assets/border2.gif");
+	background-size: contain;
+}
+
+.linkborder3 {
 	background: url("./assets/border.gif");
 }
 
