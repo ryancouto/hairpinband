@@ -82,17 +82,54 @@ h3 {
 	z-index: 0;
 }
 
-.linkborder {
-	background: url("./assets/border3.gif");
+td {
+	/*border: 8px groove #fbfbfb;*/
+	border-top: 8px solid #03e3fc;
+    border-left: 8px solid #03e3fc;
+    border-right: 8px solid #03e3fc;
+    border-bottom: 8px solid #04afc2;
+}
+td h3 {
+	text-align: center;
 }
 
-.linkborder2 {
-	background: url("./assets/border2.gif");
+a {
+	cursor: pointer;
+}
+
+a:visited {
+	color: #fa28fa;
+}
+
+a:hover {
+	color: #8ef73e;
+}
+
+.linkborder-spotify {
+	background: url("./assets/border-spotify.gif");
+}
+
+.linkborder-apple {
+	background: url("./assets/border-apple.gif");
 	background-size: contain;
 }
 
-.linkborder3 {
-	background: url("./assets/border.gif");
+.linkborder-soundcloud {
+	background: url("./assets/border-soundcloud.gif");
+}
+
+.linkborder-bandcamp {
+	background: url("./assets/border-bandcamp.gif");
+	/*background-size: contain;*/
+}
+
+.linkborder-instagram {
+	background: url("./assets/border-instagram.gif");
+}
+
+.border6 {
+	background: url("./assets/border6.gif");
+	background-size: contain;
 }
 
 .linkfont {
@@ -121,8 +158,4 @@ video {
 
 .white {
 	color: white;
-}
-
-a {
-	cursor: pointer;
 }
