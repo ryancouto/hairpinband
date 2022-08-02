@@ -83,11 +83,11 @@ h3 {
 }
 
 td {
-	/*border: 8px groove #fbfbfb;*/
-	border-top: 8px solid #03e3fc;
-    border-left: 8px solid #03e3fc;
-    border-right: 8px solid #03e3fc;
-    border-bottom: 8px solid #04afc2;
+	/*border: 12px groove #fbfbfb;*/
+	border-top: 12px solid #03e3fc;
+    border-left: 12px solid #03e3fc;
+    border-right: 12px solid #04afc2;
+    border-bottom: 12px solid #04afc2;
 }
 td h3 {
 	text-align: center;
@@ -98,7 +98,7 @@ a {
 }
 
 a:visited {
-	color: #fa28fa;
+	color: #001eff;
 }
 
 a:hover {
