@@ -99,6 +99,8 @@ td h3 {
 
 a {
 	cursor: pointer;
+	background: yellow;
+	background-size: contain;
 }
 
 a:visited {
@@ -132,8 +134,8 @@ a:hover {
 }
 
 .border6 {
-	background: url("./assets/border6.gif");
-	background-size: contain;
+	background: url("./assets/NASCARanim.gif");
+	/*background-size: contain;*/
 }
 
 .linkfont {
